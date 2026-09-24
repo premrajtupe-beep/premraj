@@ -1,0 +1,253 @@
+* {
+    margin: 0%;
+    font-family: arial;
+    border: border-box;
+}
+
+/* .Nav-bar */
+
+.Nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+}
+
+.Innerlogo {
+    width: 100px;
+    height: 50px;
+}
+
+.Logo {
+    background-image: url("logo.webp");
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+
+.Border {
+    border: 1.5px solid transparent;
+}
+
+.Border:hover {
+    border: 1.5px solid white;
+}
+
+.Next {
+    display: flex;
+    align-items: center;
+}
+
+.Deliver {
+    /* margin-left: 25px; */
+    color: #cccccc;
+    font-size: 0.85rem;
+}
+
+.India {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.Search {
+    background-color: pink;
+    height: 40px;
+    width: 620px;
+    align-items: center;
+    display: flex;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+
+.Search:hover {
+    border: 2px solid orange;
+}
+
+.Select {
+    width: 50px;
+    height: 100%;
+    text-align: center;
+    background-color: #f3f3f3;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.Input {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 1rem;
+}
+
+span {
+    font-size: 0.7rem;
+}
+
+.Account {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* down panel */
+
+
+.Down-panel {
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Down-panel-text {
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.Down-panel-text p {
+
+    display: inline;
+    margin-left: 15px;
+}
+
+.Down-panel-text-right {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+
+
+/* 1st-image */
+
+
+.Fst-image {
+    height: 620px;
+    background-image: url("focus\ wallpeaper.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.Image-text {
+    background-color: white;
+    color: black;
+    width: 95%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+}
+
+.Image-text a {
+    color: #007185;
+}
+
+
+/* Body-Box */
+
+
+
+
+.Body-box {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: black;
+
+}
+
+.Box1 {
+    background-color: white;
+    height: 400px;
+    width: 23%;
+    margin-top: 15px;
+    padding: 20px 10px 15px;
+}
+
+.Box-image {
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Box1 p {
+    color: #007185;
+}
+
+
+
+/* Footer */
+
+footer {
+    margin-top: 15px;
+}
+
+.Footer-panel1 {
+    background-color: #37475a;
+    height: 50px;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.Footer-panel2 {
+    height: 300px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+ul {
+    margin-top: 50px;
+}
+
+
+
+.Footer-panel3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f1111;
+    height: 70px;
+    border-top: 0.5px solid white;
+    border-bottom: 0.5px solid white;
+}
+
+
+.Footer-panel4 {
+    background-color: #0f1111;
+    color: white;
+    height: 100px;
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.Panel4a a {
+    padding-right: 15px;
+}
+
+.Panel4-last {
+    padding-top: 5px;
+}
